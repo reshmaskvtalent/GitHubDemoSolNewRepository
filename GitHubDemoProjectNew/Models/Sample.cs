@@ -12,5 +12,10 @@ namespace GitHubDemoProjectNew.Models
         {
             return x + y;
         }
+        
+         public int Sub(int x, int y)
+        {
+            return x - y;
+        }
     }
 }
