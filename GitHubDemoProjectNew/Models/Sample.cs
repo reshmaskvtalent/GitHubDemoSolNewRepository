@@ -27,6 +27,11 @@ namespace GitHubDemoProjectNew.Models
          {
             return x / y;
          }
+
+         public int Rem(int x, int y)
+         {
+            return x % y;
+         }
         
     }
 }
